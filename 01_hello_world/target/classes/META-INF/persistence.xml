@@ -2,7 +2,7 @@
 	version="2.1">
 
 	<persistence-unit name="jpa_main">
-	
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>org.formacion.jpa.domain.Persona</class>
 
 		<properties>
